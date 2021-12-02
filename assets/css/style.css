@@ -1,0 +1,392 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #fff !important;
+  background-color: #141414 !important;
+  font-family: "Roboto", sans-serif !important;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #141414;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* Start nave */
+.bg-dark {
+  background-color: #141414 !important;
+}
+.men {
+  margin-right: 20px;
+}
+.men li a {
+  font-weight: 500;
+  text-align: right;
+}
+.farm {
+  display: flex;
+}
+.farm input {
+  padding: 10px 16px;
+  font-size: 16px;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: solid 1px #d6d6d6;
+  background-color: #ededed;
+  border-right: none !important;
+  outline: none;
+  margin-right: -2px;
+}
+.farm button {
+  padding: 10px;
+  width: 25%;
+  font-size: 16px !important;
+  transition: 0.2s;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: solid 1px #d6d6d6;
+  background-color: #ededed;
+  color: #000;
+  cursor: pointer;
+  border-left: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+.botam {
+  color: #fff !important;
+  background-color: #dd412b !important;
+  border-color: #dd412b !important;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+.botam:hover {
+  color: #fff !important;
+  background-color: transparent !important;
+  border-color: #fff !important;
+  border-radius: 5px;
+}
+
+/* End nave */
+
+/* Start banner */
+.swiper {
+  width: 100%;
+  height: 70%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  transition: 0.2s;
+
+  color: #fff;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #dd412b;
+}
+.swiper-pagination {
+  --swiper-pagination-color: #dd412b;
+}
+.deslide-item-content {
+  max-width: 35%;
+  position: absolute;
+  z-index: 3;
+  left: 15%;
+  text-align: left;
+}
+
+.deslide-cover-img:after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #141414;
+  background: -moz-linear-gradient(
+    0deg,
+    #141414 0,
+    rgba(32, 33, 37, 0) 50%,
+    #141414 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    #141414 0,
+    rgba(32, 33, 37, 0) 50%,
+    #141414 100%
+  );
+  background: linear-gradient(
+    0deg,
+    #141414 0,
+    rgba(32, 33, 37, 0) 50%,
+    #141414 100%
+  );
+  z-index: 2;
+}
+
+.deslide-item-content .desi-sub-text {
+  color: #dd412b;
+  font-size: 14px;
+}
+.deslide-item-content .desi-head-title h1 {
+  font-size: 2.7em;
+  margin-bottom: 30px;
+}
+.deslide-item-content p {
+  font-size: 13px;
+  width: 84%;
+  margin-bottom: 25px;
+}
+.wbtn .btn1 {
+  background-color: #dd412b;
+  border-color: transparent;
+  color: #fff;
+  padding: 10px 30px;
+  margin-right: 2%;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.wbtn .btn1:hover {
+  background-color: #b13423;
+  border-color: transparent;
+  color: #fff;
+}
+.wbtn .btn2 {
+  background-color: #646464;
+  border-color: transparent;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.wbtn .btn2:hover {
+  background-color: #4e4e4e;
+  border-color: transparent;
+  color: #fff;
+}
+/* End banner */
+
+
+
+
+
+
+
+
+
+
+.card{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none !important;
+  background-color: transparent;
+}
+
+
+.card .card-body{
+  background-color: #646464;
+  border-end-end-radius: 5px;
+  border-end-start-radius: 5px;
+}
+.card .card-body a{
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+.card .card-body a:hover{
+  color: #ff8d7b;
+
+
+}
+.card .card-body h5{
+  margin-bottom: unset;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start footer */
+
+footer{
+  margin-top: 30px;
+}
+.footer_img{
+  background-image: url(../img/footer.jpg);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer_img .footer_top{
+  padding-left: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: solid 1px #4a4a4a;
+  padding-bottom: 20px;
+  width: 45%;
+  flex-wrap: wrap;
+}
+.footer_img .footer_top img{
+  margin-right: 60px;
+}
+.footer_img .footer_top .join{
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 18px;
+  padding-left: 60px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  margin-right: 20px;
+  border-left: solid 1px #4a4a4a;
+}
+.footer_img .footer_top .join span{
+  color: #848484;
+
+}
+.footer_img .footer_top .s_icon a i{
+  font-size: 18px;
+  color: #fff;
+}
+.footer_img .footer_top .s_icon a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.footer_img .footer_top .s_icon{
+  display: flex;
+}
+.footer_img .footer_top .s_icon .dis{
+  background-color: #6f85d5;
+  padding: 12px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-radius: 4px;
+}
+.footer_img .footer_top .s_icon .tel{
+  background-color: #08c;
+  padding: 12px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-radius: 4px;
+}
+.footer_img .footer_top .s_icon .red{
+  background-color: #ff3c1f;
+  padding: 12px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-radius: 4px;
+}
+.footer_buttom{
+  display: flex;
+  padding-top: 20px;
+}
+.footer_buttom span{
+  margin-right: 25px;
+  padding-left: 16px;
+
+}
+.footer_buttom a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer_buttom a:hover{
+  color: #dd412b;
+}
+.footer_img p{
+  padding-left: 16px;
+  margin-bottom: unset;
+  color: #848484;
+  margin-top: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End footer */
